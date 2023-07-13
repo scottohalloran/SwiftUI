@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF3336E82A53B693007ECA77 /* Write_To_Realm_From_CSVApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3336E72A53B693007ECA77 /* Write_To_Realm_From_CSVApp.swift */; };
+		CF3336EA2A53B693007ECA77 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3336E92A53B693007ECA77 /* ContentView.swift */; };
+		CF3336EC2A53B695007ECA77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF3336EB2A53B695007ECA77 /* Assets.xcassets */; };
+		CF3336EF2A53B695007ECA77 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF3336EE2A53B695007ECA77 /* Preview Assets.xcassets */; };
+		CF3336F82A53B737007ECA77 /* FileManagement.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3336F72A53B737007ECA77 /* FileManagement.swift */; };
+		CF3336FB2A53B781007ECA77 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = CF3336FA2A53B781007ECA77 /* Realm */; };
+		CF3336FD2A53B781007ECA77 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = CF3336FC2A53B781007ECA77 /* RealmSwift */; };
+		CF3336FF2A53B977007ECA77 /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3336FE2A53B977007ECA77 /* Word.swift */; };
+		CF3337032A550F67007ECA77 /* WordlistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3337022A550F67007ECA77 /* WordlistView.swift */; };
+		CF3337062A5B8F60007ECA77 /* AddAdjectives.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3337052A5B8F60007ECA77 /* AddAdjectives.swift */; };
+		CF3337082A5B90C4007ECA77 /* Adjective.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3337072A5B90C4007ECA77 /* Adjective.swift */; };
+		CF33370A2A5B9477007ECA77 /* AddWords.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3337092A5B9477007ECA77 /* AddWords.swift */; };
+		CF33370C2A5B9F89007ECA77 /* AddCompoundPrepositions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF33370B2A5B9F89007ECA77 /* AddCompoundPrepositions.swift */; };
+		CF33370E2A5BA062007ECA77 /* CompoundPreposition.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF33370D2A5BA062007ECA77 /* CompoundPreposition.swift */; };
+		CF3337102A5D15B8007ECA77 /* AddNouns.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF33370F2A5D15B7007ECA77 /* AddNouns.swift */; };
+		CF3337122A5D15D3007ECA77 /* Noun.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3337112A5D15D3007ECA77 /* Noun.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CF3336E42A53B693007ECA77 /* Write-To-Realm-From-CSV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Write-To-Realm-From-CSV.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF3336E72A53B693007ECA77 /* Write_To_Realm_From_CSVApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Write_To_Realm_From_CSVApp.swift; sourceTree = "<group>"; };
+		CF3336E92A53B693007ECA77 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CF3336EB2A53B695007ECA77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF3336EE2A53B695007ECA77 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CF3336F72A53B737007ECA77 /* FileManagement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagement.swift; sourceTree = "<group>"; };
+		CF3336FE2A53B977007ECA77 /* Word.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Word.swift; sourceTree = "<group>"; };
+		CF3337022A550F67007ECA77 /* WordlistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordlistView.swift; sourceTree = "<group>"; };
+		CF3337052A5B8F60007ECA77 /* AddAdjectives.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAdjectives.swift; sourceTree = "<group>"; };
+		CF3337072A5B90C4007ECA77 /* Adjective.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Adjective.swift; sourceTree = "<group>"; };
+		CF3337092A5B9477007ECA77 /* AddWords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWords.swift; sourceTree = "<group>"; };
+		CF33370B2A5B9F89007ECA77 /* AddCompoundPrepositions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCompoundPrepositions.swift; sourceTree = "<group>"; };
+		CF33370D2A5BA062007ECA77 /* CompoundPreposition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompoundPreposition.swift; sourceTree = "<group>"; };
+		CF33370F2A5D15B7007ECA77 /* AddNouns.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNouns.swift; sourceTree = "<group>"; };
+		CF3337112A5D15D3007ECA77 /* Noun.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Noun.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF3336E12A53B693007ECA77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF3336FD2A53B781007ECA77 /* RealmSwift in Frameworks */,
+				CF3336FB2A53B781007ECA77 /* Realm in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF3336DB2A53B693007ECA77 = {
+			isa = PBXGroup;
+			children = (
+				CF3336E62A53B693007ECA77 /* Write-To-Realm-From-CSV */,
+				CF3336E52A53B693007ECA77 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF3336E52A53B693007ECA77 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF3336E42A53B693007ECA77 /* Write-To-Realm-From-CSV.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF3336E62A53B693007ECA77 /* Write-To-Realm-From-CSV */ = {
+			isa = PBXGroup;
+			children = (
+				CF3337042A5B8F33007ECA77 /* Functions */,
+				CF3336F52A53B705007ECA77 /* Models */,
+				CF3336E72A53B693007ECA77 /* Write_To_Realm_From_CSVApp.swift */,
+				CF3336F62A53B713007ECA77 /* Views */,
+				CF3336EB2A53B695007ECA77 /* Assets.xcassets */,
+				CF3336ED2A53B695007ECA77 /* Preview Content */,
+			);
+			path = "Write-To-Realm-From-CSV";
+			sourceTree = "<group>";
+		};
+		CF3336ED2A53B695007ECA77 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CF3336EE2A53B695007ECA77 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CF3336F52A53B705007ECA77 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CF3337072A5B90C4007ECA77 /* Adjective.swift */,
+				CF3336F72A53B737007ECA77 /* FileManagement.swift */,
+				CF33370D2A5BA062007ECA77 /* CompoundPreposition.swift */,
+				CF3337112A5D15D3007ECA77 /* Noun.swift */,
+				CF3336FE2A53B977007ECA77 /* Word.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CF3336F62A53B713007ECA77 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CF3336E92A53B693007ECA77 /* ContentView.swift */,
+				CF3337022A550F67007ECA77 /* WordlistView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CF3337042A5B8F33007ECA77 /* Functions */ = {
+			isa = PBXGroup;
+			children = (
+				CF3337052A5B8F60007ECA77 /* AddAdjectives.swift */,
+				CF3337092A5B9477007ECA77 /* AddWords.swift */,
+				CF33370B2A5B9F89007ECA77 /* AddCompoundPrepositions.swift */,
+				CF33370F2A5D15B7007ECA77 /* AddNouns.swift */,
+			);
+			path = Functions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF3336E32A53B693007ECA77 /* Write-To-Realm-From-CSV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF3336F22A53B695007ECA77 /* Build configuration list for PBXNativeTarget "Write-To-Realm-From-CSV" */;
+			buildPhases = (
+				CF3336E02A53B693007ECA77 /* Sources */,
+				CF3336E12A53B693007ECA77 /* Frameworks */,
+				CF3336E22A53B693007ECA77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Write-To-Realm-From-CSV";
+			packageProductDependencies = (
+				CF3336FA2A53B781007ECA77 /* Realm */,
+				CF3336FC2A53B781007ECA77 /* RealmSwift */,
+			);
+			productName = "Write-To-Realm-From-CSV";
+			productReference = CF3336E42A53B693007ECA77 /* Write-To-Realm-From-CSV.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF3336DC2A53B693007ECA77 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					CF3336E32A53B693007ECA77 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = CF3336DF2A53B693007ECA77 /* Build configuration list for PBXProject "Write-To-Realm-From-CSV" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF3336DB2A53B693007ECA77;
+			packageReferences = (
+				CF3336F92A53B781007ECA77 /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
+			productRefGroup = CF3336E52A53B693007ECA77 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF3336E32A53B693007ECA77 /* Write-To-Realm-From-CSV */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF3336E22A53B693007ECA77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF3336EF2A53B695007ECA77 /* Preview Assets.xcassets in Resources */,
+				CF3336EC2A53B695007ECA77 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF3336E02A53B693007ECA77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF3337032A550F67007ECA77 /* WordlistView.swift in Sources */,
+				CF33370E2A5BA062007ECA77 /* CompoundPreposition.swift in Sources */,
+				CF33370A2A5B9477007ECA77 /* AddWords.swift in Sources */,
+				CF3336EA2A53B693007ECA77 /* ContentView.swift in Sources */,
+				CF33370C2A5B9F89007ECA77 /* AddCompoundPrepositions.swift in Sources */,
+				CF3337122A5D15D3007ECA77 /* Noun.swift in Sources */,
+				CF3337082A5B90C4007ECA77 /* Adjective.swift in Sources */,
+				CF3336FF2A53B977007ECA77 /* Word.swift in Sources */,
+				CF3337062A5B8F60007ECA77 /* AddAdjectives.swift in Sources */,
+				CF3336F82A53B737007ECA77 /* FileManagement.swift in Sources */,
+				CF3337102A5D15B8007ECA77 /* AddNouns.swift in Sources */,
+				CF3336E82A53B693007ECA77 /* Write_To_Realm_From_CSVApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CF3336F02A53B695007ECA77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CF3336F12A53B695007ECA77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF3336F32A53B695007ECA77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Write-To-Realm-From-CSV/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wordwalkthrough.Write-To-Realm-From-CSV";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF3336F42A53B695007ECA77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Write-To-Realm-From-CSV/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wordwalkthrough.Write-To-Realm-From-CSV";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF3336DF2A53B693007ECA77 /* Build configuration list for PBXProject "Write-To-Realm-From-CSV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF3336F02A53B695007ECA77 /* Debug */,
+				CF3336F12A53B695007ECA77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF3336F22A53B695007ECA77 /* Build configuration list for PBXNativeTarget "Write-To-Realm-From-CSV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF3336F32A53B695007ECA77 /* Debug */,
+				CF3336F42A53B695007ECA77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CF3336F92A53B781007ECA77 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CF3336FA2A53B781007ECA77 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CF3336F92A53B781007ECA77 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		CF3336FC2A53B781007ECA77 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CF3336F92A53B781007ECA77 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = CF3336DC2A53B693007ECA77 /* Project object */;
+}
