@@ -52,6 +52,32 @@ struct ContentView: View {
                 .clipShape(Capsule())
         }
         
+        //adds prepositional pronouns to the realm
+        Button{
+            addPrepositionalPronouns(inputFile: "PrepositionalPronoun.csv", itemCount: 17)
+            
+        } label: {
+            Text("Write Prepositional Pronouns to Realm")
+            //.font(.title)
+                .foregroundColor(.white)
+                .frame(width: 200, height: 50)
+                .background(.green)
+                .clipShape(Capsule())
+        }
+        
+        //adds prepositional pronouns to the realm
+        Button{
+            addSimplePrepositions(inputFile: "SimplePreposition.csv", itemCount: 3)
+            
+        } label: {
+            Text("Write Simple Prepositions to Realm")
+            //.font(.title)
+                .foregroundColor(.white)
+                .frame(width: 200, height: 50)
+                .background(.green)
+                .clipShape(Capsule())
+        }
+        
         //Adds words to wordlist
         Button{
             let wordlist = readCSV(inputFile: "Word.csv", separator: "\n")

@@ -23,6 +23,10 @@
 		CF33370E2A5BA062007ECA77 /* CompoundPreposition.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF33370D2A5BA062007ECA77 /* CompoundPreposition.swift */; };
 		CF3337102A5D15B8007ECA77 /* AddNouns.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF33370F2A5D15B7007ECA77 /* AddNouns.swift */; };
 		CF3337122A5D15D3007ECA77 /* Noun.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3337112A5D15D3007ECA77 /* Noun.swift */; };
+		CF378A332A70CA8D00E1F3BF /* PrepositionalPronouns.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF378A322A70CA8D00E1F3BF /* PrepositionalPronouns.swift */; };
+		CF378A352A70CBCD00E1F3BF /* AddPrepositionalPronouns.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF378A342A70CBCD00E1F3BF /* AddPrepositionalPronouns.swift */; };
+		CF378A372A789F1300E1F3BF /* SimplePreposition.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF378A362A789F1300E1F3BF /* SimplePreposition.swift */; };
+		CF378A392A789FF400E1F3BF /* AddSimplePrepositions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF378A382A789FF400E1F3BF /* AddSimplePrepositions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +45,10 @@
 		CF33370D2A5BA062007ECA77 /* CompoundPreposition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompoundPreposition.swift; sourceTree = "<group>"; };
 		CF33370F2A5D15B7007ECA77 /* AddNouns.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNouns.swift; sourceTree = "<group>"; };
 		CF3337112A5D15D3007ECA77 /* Noun.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Noun.swift; sourceTree = "<group>"; };
+		CF378A322A70CA8D00E1F3BF /* PrepositionalPronouns.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrepositionalPronouns.swift; sourceTree = "<group>"; };
+		CF378A342A70CBCD00E1F3BF /* AddPrepositionalPronouns.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPrepositionalPronouns.swift; sourceTree = "<group>"; };
+		CF378A362A789F1300E1F3BF /* SimplePreposition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimplePreposition.swift; sourceTree = "<group>"; };
+		CF378A382A789FF400E1F3BF /* AddSimplePrepositions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSimplePrepositions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +109,8 @@
 				CF33370D2A5BA062007ECA77 /* CompoundPreposition.swift */,
 				CF3337112A5D15D3007ECA77 /* Noun.swift */,
 				CF3336FE2A53B977007ECA77 /* Word.swift */,
+				CF378A322A70CA8D00E1F3BF /* PrepositionalPronouns.swift */,
+				CF378A362A789F1300E1F3BF /* SimplePreposition.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -121,6 +131,8 @@
 				CF3337092A5B9477007ECA77 /* AddWords.swift */,
 				CF33370B2A5B9F89007ECA77 /* AddCompoundPrepositions.swift */,
 				CF33370F2A5D15B7007ECA77 /* AddNouns.swift */,
+				CF378A342A70CBCD00E1F3BF /* AddPrepositionalPronouns.swift */,
+				CF378A382A789FF400E1F3BF /* AddSimplePrepositions.swift */,
 			);
 			path = Functions;
 			sourceTree = "<group>";
@@ -203,11 +215,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF3337032A550F67007ECA77 /* WordlistView.swift in Sources */,
+				CF378A352A70CBCD00E1F3BF /* AddPrepositionalPronouns.swift in Sources */,
 				CF33370E2A5BA062007ECA77 /* CompoundPreposition.swift in Sources */,
 				CF33370A2A5B9477007ECA77 /* AddWords.swift in Sources */,
+				CF378A372A789F1300E1F3BF /* SimplePreposition.swift in Sources */,
 				CF3336EA2A53B693007ECA77 /* ContentView.swift in Sources */,
 				CF33370C2A5B9F89007ECA77 /* AddCompoundPrepositions.swift in Sources */,
 				CF3337122A5D15D3007ECA77 /* Noun.swift in Sources */,
+				CF378A392A789FF400E1F3BF /* AddSimplePrepositions.swift in Sources */,
+				CF378A332A70CA8D00E1F3BF /* PrepositionalPronouns.swift in Sources */,
 				CF3337082A5B90C4007ECA77 /* Adjective.swift in Sources */,
 				CF3336FF2A53B977007ECA77 /* Word.swift in Sources */,
 				CF3337062A5B8F60007ECA77 /* AddAdjectives.swift in Sources */,
