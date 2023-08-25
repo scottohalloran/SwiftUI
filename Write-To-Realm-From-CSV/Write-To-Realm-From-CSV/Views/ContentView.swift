@@ -78,6 +78,19 @@ struct ContentView: View {
                 .clipShape(Capsule())
         }
         
+        //adds verbs to the realm
+        Button{
+            addVerbs(inputFile: "Verb.csv", itemCount: 168)
+            
+        } label: {
+            Text("Write Verbs to Realm")
+            //.font(.title)
+                .foregroundColor(.white)
+                .frame(width: 200, height: 50)
+                .background(.green)
+                .clipShape(Capsule())
+        }
+        
         //Adds words to wordlist
         Button{
             let wordlist = readCSV(inputFile: "Word.csv", separator: "\n")

@@ -27,6 +27,8 @@
 		CF378A352A70CBCD00E1F3BF /* AddPrepositionalPronouns.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF378A342A70CBCD00E1F3BF /* AddPrepositionalPronouns.swift */; };
 		CF378A372A789F1300E1F3BF /* SimplePreposition.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF378A362A789F1300E1F3BF /* SimplePreposition.swift */; };
 		CF378A392A789FF400E1F3BF /* AddSimplePrepositions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF378A382A789FF400E1F3BF /* AddSimplePrepositions.swift */; };
+		CF378A3B2A93164A00E1F3BF /* Verb.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF378A3A2A93164A00E1F3BF /* Verb.swift */; };
+		CF378A3D2A9321A400E1F3BF /* AddVerbs.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF378A3C2A9321A300E1F3BF /* AddVerbs.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +51,8 @@
 		CF378A342A70CBCD00E1F3BF /* AddPrepositionalPronouns.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPrepositionalPronouns.swift; sourceTree = "<group>"; };
 		CF378A362A789F1300E1F3BF /* SimplePreposition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimplePreposition.swift; sourceTree = "<group>"; };
 		CF378A382A789FF400E1F3BF /* AddSimplePrepositions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSimplePrepositions.swift; sourceTree = "<group>"; };
+		CF378A3A2A93164A00E1F3BF /* Verb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Verb.swift; sourceTree = "<group>"; };
+		CF378A3C2A9321A300E1F3BF /* AddVerbs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddVerbs.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +115,7 @@
 				CF3336FE2A53B977007ECA77 /* Word.swift */,
 				CF378A322A70CA8D00E1F3BF /* PrepositionalPronouns.swift */,
 				CF378A362A789F1300E1F3BF /* SimplePreposition.swift */,
+				CF378A3A2A93164A00E1F3BF /* Verb.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -133,6 +138,7 @@
 				CF33370F2A5D15B7007ECA77 /* AddNouns.swift */,
 				CF378A342A70CBCD00E1F3BF /* AddPrepositionalPronouns.swift */,
 				CF378A382A789FF400E1F3BF /* AddSimplePrepositions.swift */,
+				CF378A3C2A9321A300E1F3BF /* AddVerbs.swift */,
 			);
 			path = Functions;
 			sourceTree = "<group>";
@@ -229,6 +235,8 @@
 				CF3337062A5B8F60007ECA77 /* AddAdjectives.swift in Sources */,
 				CF3336F82A53B737007ECA77 /* FileManagement.swift in Sources */,
 				CF3337102A5D15B8007ECA77 /* AddNouns.swift in Sources */,
+				CF378A3B2A93164A00E1F3BF /* Verb.swift in Sources */,
+				CF378A3D2A9321A400E1F3BF /* AddVerbs.swift in Sources */,
 				CF3336E82A53B693007ECA77 /* Write_To_Realm_From_CSVApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
