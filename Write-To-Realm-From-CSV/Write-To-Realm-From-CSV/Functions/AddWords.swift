@@ -24,7 +24,7 @@ func addWords () {
         word.english = adjective.english
         word.type = adjective.type
         wordArray.append(word)
-        }
+    }
     
     /*   Compound Prepositions  */
     // Fetch all Compound Preposition objects from Realm
@@ -39,7 +39,7 @@ func addWords () {
         word.english = compoundPreposition.english
         word.type = compoundPreposition.type
         wordArray.append(word)
-        }
+    }
     
     /*   Nouns  */
     // Fetch all Noun objects from Realm
@@ -54,7 +54,7 @@ func addWords () {
         word.english = noun.english
         word.type = noun.type
         wordArray.append(word)
-        }
+    }
     
     /*   Prepositional Pronouns  */
     // Fetch all Prepositional Pronoun objects from Realm
@@ -69,7 +69,7 @@ func addWords () {
         word.english = prepositionalPronoun.english
         word.type = prepositionalPronoun.type
         wordArray.append(word)
-        }
+    }
     
     /*   Simple Prepositions  */
     // Fetch all Simple Prepositions objects from Realm
@@ -84,7 +84,7 @@ func addWords () {
         word.english = simplePreposition.english
         word.type = simplePreposition.type
         wordArray.append(word)
-        }
+    }
     
     /*   Verbs   */
     // Fetch all Verb objects from Realm
@@ -99,9 +99,18 @@ func addWords () {
         word.english = verb.english
         word.type = verb.type
         wordArray.append(word)
-        }
-    wordArray.sort{
-        $0.irish < $1.irish
     }
-print(wordArray)
+    //sort the array into alphabetical order
+    wordArray.sort{
+       
+            $0.irish.compare($1.irish, options: .caseInsensitive) == .orderedAscending
+        
+       //$0.irish < $1.irish
+    }
+    for(word) in wordArray {
+        try! realm.write {
+            realm.add(word)
+        }
+    }
+    
 }
