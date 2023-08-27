@@ -93,20 +93,7 @@ struct ContentView: View {
         
         //Adds words to wordlist
         Button{
-            let wordlist = readCSV(inputFile: "Word.csv", separator: "\n")
-            for(word) in wordlist {
-                let newWord = word.components(separatedBy: ",")
-                let listword = Word()
-                if (newWord.count == 3)
-                {
-                    listword.irish = newWord[0]
-                    listword.english = newWord[1]
-                    listword.type = newWord[2]
-                    try! realm.write {
-                        realm.add(listword)
-                    }
-                }
-            }
+            addWords()
             
         } label: {
             Text("Write Wordlist to Realm")
