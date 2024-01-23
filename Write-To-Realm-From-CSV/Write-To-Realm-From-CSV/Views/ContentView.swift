@@ -91,7 +91,7 @@ struct ContentView: View {
                 .clipShape(Capsule())
         }
         
-        //Adds words to wordlist
+   //     Adds words to wordlist
         Button{
             addWords()
             
@@ -103,7 +103,17 @@ struct ContentView: View {
                 .background(.green)
                 .clipShape(Capsule())
         }
-        
+        Button{
+            addWordsToTextFile()
+            
+        } label: {
+            Text("Write Wordlist to TextFile")
+            //.font(.title)
+                .foregroundColor(.white)
+                .frame(width: 200, height: 50)
+                .background(.green)
+                .clipShape(Capsule())
+        }
     }
 }
 

@@ -6,3 +6,16 @@
 //
 
 import Foundation
+import RealmSwift
+
+class WordList : Object{
+    
+ 
+    @Persisted var name = ""
+    @Persisted var wordList = List<Word>()
+    
+    
+    
+}
+
+

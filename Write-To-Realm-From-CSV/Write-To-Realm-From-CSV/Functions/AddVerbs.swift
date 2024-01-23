@@ -16,7 +16,7 @@ func addVerbs(inputFile: String, itemCount: Int) {
         let newVerb = verb.components(separatedBy: ",")
         let listVerb = Verb()
         //Check to see if the number of items on the line
-        // being read matches the number of items in a noun
+        // being read matches the number of items in a verb
         if (newVerb.count == itemCount)
         {
             listVerb.base = newVerb[0]

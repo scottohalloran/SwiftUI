@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF0F323D2A9C438A0006DFA9 /* WordList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0F323C2A9C438A0006DFA9 /* WordList.swift */; };
+		CF0F323F2A9C47AC0006DFA9 /* AddWordLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0F323E2A9C47AC0006DFA9 /* AddWordLists.swift */; };
 		CF3336E82A53B693007ECA77 /* Write_To_Realm_From_CSVApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3336E72A53B693007ECA77 /* Write_To_Realm_From_CSVApp.swift */; };
 		CF3336EA2A53B693007ECA77 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3336E92A53B693007ECA77 /* ContentView.swift */; };
 		CF3336EC2A53B695007ECA77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF3336EB2A53B695007ECA77 /* Assets.xcassets */; };
@@ -29,9 +31,12 @@
 		CF378A392A789FF400E1F3BF /* AddSimplePrepositions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF378A382A789FF400E1F3BF /* AddSimplePrepositions.swift */; };
 		CF378A3B2A93164A00E1F3BF /* Verb.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF378A3A2A93164A00E1F3BF /* Verb.swift */; };
 		CF378A3D2A9321A400E1F3BF /* AddVerbs.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF378A3C2A9321A300E1F3BF /* AddVerbs.swift */; };
+		CF9FD9AD2B5E0A0A00C7BFCD /* AddWordsToTextFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9FD9AC2B5E0A0A00C7BFCD /* AddWordsToTextFile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CF0F323C2A9C438A0006DFA9 /* WordList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordList.swift; sourceTree = "<group>"; };
+		CF0F323E2A9C47AC0006DFA9 /* AddWordLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWordLists.swift; sourceTree = "<group>"; };
 		CF3336E42A53B693007ECA77 /* Write-To-Realm-From-CSV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Write-To-Realm-From-CSV.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF3336E72A53B693007ECA77 /* Write_To_Realm_From_CSVApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Write_To_Realm_From_CSVApp.swift; sourceTree = "<group>"; };
 		CF3336E92A53B693007ECA77 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +58,7 @@
 		CF378A382A789FF400E1F3BF /* AddSimplePrepositions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSimplePrepositions.swift; sourceTree = "<group>"; };
 		CF378A3A2A93164A00E1F3BF /* Verb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Verb.swift; sourceTree = "<group>"; };
 		CF378A3C2A9321A300E1F3BF /* AddVerbs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddVerbs.swift; sourceTree = "<group>"; };
+		CF9FD9AC2B5E0A0A00C7BFCD /* AddWordsToTextFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWordsToTextFile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,10 +118,11 @@
 				CF3336F72A53B737007ECA77 /* FileManagement.swift */,
 				CF33370D2A5BA062007ECA77 /* CompoundPreposition.swift */,
 				CF3337112A5D15D3007ECA77 /* Noun.swift */,
-				CF3336FE2A53B977007ECA77 /* Word.swift */,
 				CF378A322A70CA8D00E1F3BF /* PrepositionalPronouns.swift */,
 				CF378A362A789F1300E1F3BF /* SimplePreposition.swift */,
 				CF378A3A2A93164A00E1F3BF /* Verb.swift */,
+				CF3336FE2A53B977007ECA77 /* Word.swift */,
+				CF0F323C2A9C438A0006DFA9 /* WordList.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -133,12 +140,14 @@
 			isa = PBXGroup;
 			children = (
 				CF3337052A5B8F60007ECA77 /* AddAdjectives.swift */,
-				CF3337092A5B9477007ECA77 /* AddWords.swift */,
 				CF33370B2A5B9F89007ECA77 /* AddCompoundPrepositions.swift */,
 				CF33370F2A5D15B7007ECA77 /* AddNouns.swift */,
 				CF378A342A70CBCD00E1F3BF /* AddPrepositionalPronouns.swift */,
 				CF378A382A789FF400E1F3BF /* AddSimplePrepositions.swift */,
 				CF378A3C2A9321A300E1F3BF /* AddVerbs.swift */,
+				CF3337092A5B9477007ECA77 /* AddWords.swift */,
+				CF0F323E2A9C47AC0006DFA9 /* AddWordLists.swift */,
+				CF9FD9AC2B5E0A0A00C7BFCD /* AddWordsToTextFile.swift */,
 			);
 			path = Functions;
 			sourceTree = "<group>";
@@ -222,12 +231,15 @@
 			files = (
 				CF3337032A550F67007ECA77 /* WordlistView.swift in Sources */,
 				CF378A352A70CBCD00E1F3BF /* AddPrepositionalPronouns.swift in Sources */,
+				CF0F323D2A9C438A0006DFA9 /* WordList.swift in Sources */,
 				CF33370E2A5BA062007ECA77 /* CompoundPreposition.swift in Sources */,
+				CF9FD9AD2B5E0A0A00C7BFCD /* AddWordsToTextFile.swift in Sources */,
 				CF33370A2A5B9477007ECA77 /* AddWords.swift in Sources */,
 				CF378A372A789F1300E1F3BF /* SimplePreposition.swift in Sources */,
 				CF3336EA2A53B693007ECA77 /* ContentView.swift in Sources */,
 				CF33370C2A5B9F89007ECA77 /* AddCompoundPrepositions.swift in Sources */,
 				CF3337122A5D15D3007ECA77 /* Noun.swift in Sources */,
+				CF0F323F2A9C47AC0006DFA9 /* AddWordLists.swift in Sources */,
 				CF378A392A789FF400E1F3BF /* AddSimplePrepositions.swift in Sources */,
 				CF378A332A70CA8D00E1F3BF /* PrepositionalPronouns.swift in Sources */,
 				CF3337082A5B90C4007ECA77 /* Adjective.swift in Sources */,
